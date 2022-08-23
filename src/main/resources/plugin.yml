@@ -1,0 +1,5 @@
+name: ScrewLaggers
+version: '${project.version}'
+main: me.iowa.screwlaggers.ScrewLaggers
+author: 'Iowa (jt#1296)'
+api-version: 1.19
