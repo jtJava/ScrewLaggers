@@ -20,10 +20,6 @@ public final class ScrewLaggers extends JavaPlugin {
     @Getter
     private static ScrewLaggers plugin;
 
-    private final LegacyComponentSerializer componentSerializer = LegacyComponentSerializer.builder()
-            .character(LegacyComponentSerializer.AMPERSAND_CHAR)
-            .hexCharacter(LegacyComponentSerializer.HEX_CHAR).build();
-
     private LaggerConfig laggerConfig;
 
     private Ticker ticker;
